@@ -1,15 +1,104 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
-<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title></title></head><body>&nbsp;<br>
-<big style="font-weight: bold;">"bu site C ile yapt&#305;&#287;&#305;m oyun motoru hakk&#305;nda bilgi vermek için yap&#305;lm&#305;&#351;t&#305;r."</big><br>
-selam ben cxxdev322 <br>
-ben C/C++ yi çok seviyorum bunun içinde bir engine yapmak istiyorum<br>
-ben bu motoru yaparken kendimi ve "ne yarar&#305; olcak bu &#351;eyin?"<br>
-diye dü&#351;ünmüyorum.tek dü&#351;ündü&#287;üm &#351;ey"ilerki ça&#287;da bu dandik<br>
-oyun motorlar&#305; hala kullan&#305;lcakm&#305;?", "oyun ça&#287;&#305;n&#305; nas&#305;l a&#351;abilirim?"<br>
-idi.<br>
-<br>
-<br>
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Engine</title>
 
-</body></html>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #2b2b2b;
+            color: white;
+            min-height: 100vh;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #1f1f1f;
+            border-bottom: 2px solid #3a3a3a;
+        }
+
+        .logo {
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        /* MAIN */
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 80px);
+        }
+
+        .card {
+            background: linear-gradient(135deg, #3a3a3a, #2e2e2e);
+            padding: 60px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.6);
+        }
+
+        .card h1 {
+            font-size: 40px;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            font-size: 22px;
+            color: #aaa;
+            margin-bottom: 25px;
+        }
+
+        .card p {
+            font-size: 20px;
+            font-weight: bold;
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">GAME ENGINE</div>
+        <nav>
+            <a href="#">Release</a>
+            <a href="#">Download</a>
+            <a href="#">Docs</a>
+            <a href="#">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h1>Game Engine Released</h1>
+            <h2>07.01.2026</h2>
+            <p>Switched to C++</p>
+        </div>
+    </main>
+
+</body>
+</html>
