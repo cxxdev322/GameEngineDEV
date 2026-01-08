@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Engine - Nasıl Kullanılır</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(180deg, #1e1e1e, #151515);
+            color: #e6e6e6;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #121212;
+            border-bottom: 2px solid #2a2a2a;
+        }
+
+        .logo {
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 40px;
+        }
+
+        .content {
+            max-width: 900px;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 48px;
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+
+        .content p {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #cfcfcf;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #ff8c42;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">GAME ENGINE</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="download.html">Download</a>
+        <a href="how-to-use.html">Docs</a>
+        <a href="#">GitHub</a>
+    </nav>
+</header>
+
+<main>
+    <div class="content">
+        <h1>Nasıl Kullanılır</h1>
+
+        <p>
+            Game Engine, modern <span class="highlight">C++</span> ile
+            geliştirilmiş, performans odaklı ve modüler bir oyun motorudur.
+            Minimum soyutlama ile maksimum kontrol sunar.
+        </p>
+
+        <p>
+            Motoru kullanmaya başlamak için projeyi indirip derlemeniz yeterlidir.
+            Dahili render pipeline, sahne sistemi ve bileşen mimarisi
+            hazır şekilde gelir.
+        </p>
+
+        <p>
+            Oyun döngüsü tamamen geliştirici kontrolündedir.
+            Sistemler bağımsız çalışır ve kolayca genişletilebilir.
+            Bu sayede motoru kendi ihtiyaçlarınıza göre şekillendirebilirsiniz.
+        </p>
+    </div>
+</main>
+
+</body>
+</html>
